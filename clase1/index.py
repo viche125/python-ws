@@ -4,10 +4,17 @@
 
 # Variables y tipos de datos
 nombre = "Jazmin"
+tipo = type(nombre)
+print("El tipo de dato es: ", tipo)
 edad = 30
+tipo = type(edad)
+print(f"El tipo de dato es: {tipo}")
+edad = False
+tipo = type(edad)
+print(f"El tipo de dato es: {tipo}")
 altura = 1.65
-es_estudiante = True
-
+esEstudiante = True
+variableUsada = "si si esta usada"
 print(nombre, edad, altura, es_estudiante)
 print(type(nombre), type(edad), type(altura), type(es_estudiante))
 
