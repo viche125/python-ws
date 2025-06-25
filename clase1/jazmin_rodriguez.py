@@ -33,5 +33,6 @@ if __name__ == "__main__":
     name, edad, talla, peso = person()
     
     msn = ejercicio1(peso, talla)
+
     print(f"Hola {name} tienes {edad} años y estas en: {msn}")
     # ejercicio2()
